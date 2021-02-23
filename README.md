@@ -4,10 +4,12 @@
 # 
 # Structure:
 # 
-# templates ------ map.html
-# twitter_auth --- hidden.py
-#              |---oauth.py
-#              |---twitter2.py
-#              |---twurl.py
+# templates
+# |-------- map.html
+# twitter_auth 
+# |-------- hidden.py            
+# |-------- oauth.py
+# |-------- twitter2.py
+# |-------- twurl.py
 # app.py
 # web_map.py
