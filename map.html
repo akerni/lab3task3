@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5b7c923bd5514eb58ead25a68854655e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5b7c923bd5514eb58ead25a68854655e" ></div>
+        
+</body>
+<script>    
+    
+            var map_5b7c923bd5514eb58ead25a68854655e = L.map(
+                "map_5b7c923bd5514eb58ead25a68854655e",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_827695801ca145eabac1b244c12bb6e9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5b7c923bd5514eb58ead25a68854655e);
+        
+    
+            var feature_group_37110b93cb39444e852f06389ab469a4 = L.featureGroup(
+                {}
+            ).addTo(map_5b7c923bd5514eb58ead25a68854655e);
+        
+    
+            var marker_3ad248b71ea747ffbf879311228a6364 = L.marker(
+                [48.7308806, 2.444754],
+                {}
+            ).addTo(feature_group_37110b93cb39444e852f06389ab469a4);
+        
+    
+            var icon_30592b3e4b6e4d49b15b00925cd650ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_3ad248b71ea747ffbf879311228a6364.setIcon(icon_30592b3e4b6e4d49b15b00925cd650ce);
+        
+    
+        var popup_ad073d349e814fc3bc2abb67825b3194 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d041e0c0288a40d2b5e29f12fa7f73c1 = $(`<div id="html_d041e0c0288a40d2b5e29f12fa7f73c1" style="width: 100.0%; height: 100.0%;">kvestrelanda</div>`)[0];
+            popup_ad073d349e814fc3bc2abb67825b3194.setContent(html_d041e0c0288a40d2b5e29f12fa7f73c1);
+        
+
+        marker_3ad248b71ea747ffbf879311228a6364.bindPopup(popup_ad073d349e814fc3bc2abb67825b3194)
+        ;
+
+        
+    
+    
+            var marker_957931220b6f46ac8f5cd0f02b28c461 = L.marker(
+                [49.4871968, 31.2718321],
+                {}
+            ).addTo(feature_group_37110b93cb39444e852f06389ab469a4);
+        
+    
+            var icon_aa730d8d1140441d8edf3bb775db2230 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_957931220b6f46ac8f5cd0f02b28c461.setIcon(icon_aa730d8d1140441d8edf3bb775db2230);
+        
+    
+        var popup_930dcaf9710f49a686ed716657a19aed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_307a544ae2304b9c939ab3c9fcb010a5 = $(`<div id="html_307a544ae2304b9c939ab3c9fcb010a5" style="width: 100.0%; height: 100.0%;">Yushka19</div>`)[0];
+            popup_930dcaf9710f49a686ed716657a19aed.setContent(html_307a544ae2304b9c939ab3c9fcb010a5);
+        
+
+        marker_957931220b6f46ac8f5cd0f02b28c461.bindPopup(popup_930dcaf9710f49a686ed716657a19aed)
+        ;
+
+        
+    
+    
+            var layer_control_f02a5872f87a45e68e1784f448757b09 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_827695801ca145eabac1b244c12bb6e9,
+                },
+                overlays :  {
+                    "Friends\u0027 locations" : feature_group_37110b93cb39444e852f06389ab469a4,
+                },
+            };
+            L.control.layers(
+                layer_control_f02a5872f87a45e68e1784f448757b09.base_layers,
+                layer_control_f02a5872f87a45e68e1784f448757b09.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_5b7c923bd5514eb58ead25a68854655e);
+        
+</script>
